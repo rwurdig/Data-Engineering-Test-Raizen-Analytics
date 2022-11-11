@@ -23,12 +23,21 @@ Clone this repository and go to directory.
 
 git clone https://github.com/rwurdig/Data-Engineering-Test-Raizen-Analytics.git
 
+cd Data-Engineering-Test-Raizen-Analytics/airflow
+
 Initialize the Database.
 
 * Airflow deploy
 
 docker-compose up airflow-init
 docker-compose up -d
+
+###### Outuput
+
+* airflow-worker
+
+/home/airflow/parquet/sales_diesel.parquet
+/home/airflow/parquet/sales_oil_derivative_fuels.parquet
 
 After returning this message:
 
@@ -47,3 +56,6 @@ The webserver is available at: http://localhost:8080. The default account has th
 ## Running already builded
 docker-compose up
 
+Foi feito upload de uma screenshot do Dag sendo executado com sucesso.
+
+* evidencia teste_Airflow_sucesso.jpg
