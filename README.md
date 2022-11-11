@@ -14,7 +14,7 @@ Requirements
 Tools requires the following to run:
 
   * Docker
-  * [docker-compose](docker-compose) 1.29.2
+  * [docker-compose](docker-compose)
 
 Installation
 ------------
